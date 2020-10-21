@@ -1,0 +1,8 @@
+#version 150
+
+in vec3 clr;
+out vec4 fclr;
+
+void main() {
+	fclr = vec4(clr,1.0);
+};
